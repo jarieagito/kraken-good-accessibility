@@ -30,6 +30,7 @@ header {
   font-style: normal;
   font-weight: normal;
   padding: 1rem;
+  background-color: #1e7c74;
 }
 
 header strong,
@@ -54,6 +55,9 @@ article header {
   background-image: none;
   border-radius: 0 0 6px 6px;
   color: #fff;
+  font-weight: normal;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 h1 {
@@ -86,14 +90,19 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
 
-nav a:hover,
+nav a:hover {
+  background-color: #1e7c74;
+}
+
 nav a:focus {
   background-color: #1e7c74;
+  outline: .2rem solid #000;
+  outline-offset: .1rem;
 }
 
 .icon {
@@ -157,4 +166,5 @@ footer {
   padding: 1rem;
   background-image: url("../images/anchors.svg");
   color: #fff;
+  background-color: #1e7c74;
 }
